@@ -1,0 +1,51 @@
+# ===== ANDROID =====
+*.iml
+.gradle
+/local.properties
+/.idea/
+/build/
+/captures/
+/outputs/
+.externalNativeBuild
+.cxx
+*.keystore
+*.jks
+!gradle-wrapper.jar
+*.apk
+*.aab
+
+# ===== KOTLIN =====
+*.class
+*.jar
+*.war
+*.ear
+*.kotlin_module
+*.swp
+*.swo
+*.swn
+
+# ===== WINDOWS =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ===== macOS/Linux =====
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+*.lock
+
+# ===== VIM =====
+*.swp
+*.swo
+*.swn
+
+# ===== VISUAL STUDIO CODE =====
+.vscode/
+*.code-workspace
+.history/
